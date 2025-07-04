@@ -1,0 +1,19 @@
+{
+  "name": "nextdev-server",
+  "version": "1.0.0",
+  "description": "The **NextDev Server** provides the RESTful API powering the NextDev platform—handling authentication, user profiles, job postings, applications, CV uploads, and news integration.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
